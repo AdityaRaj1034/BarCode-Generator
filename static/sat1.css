@@ -1,0 +1,265 @@
+body {
+	margin: 0;
+	padding: 0;
+    background-color: lightgoldenrodyellow;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+  
+}
+
+header {
+	background-color: black;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.fixed-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+  }
+  
+.logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+ 
+.company-name {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white ;
+  }
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	margin: 0 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+main {
+	margin: 20px;
+}
+.container4 {
+  max-width: 65vw;
+  margin: 0px auto;
+  padding: 40px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.container3 {
+  max-width: 70vw;
+  margin: 0px auto;
+  padding: 10px;
+  background-color: grey;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+th,td {
+  padding-left: 50px;
+  padding-right: 50px;
+  /* border: 2px solid black; */
+}
+
+.heading{
+  background-color: wheat;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 12px;
+  margin-left: 15%;
+  width: 70%;
+
+
+}
+ 
+
+footer {
+	background-color:black;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+nav .fa {
+  display: none;
+}
+@media(max-width: 700px) {
+
+  .nav-links ul li {
+      display: block;
+  }
+  .nav-links {
+      position: fixed;
+      background: #47b19efa;
+      height: 100vh;
+      width: 200px;
+      top: 0;
+      right: -200px;
+      text-align: left;
+      z-index: 2;
+      transition: 1.2s;
+  }
+  nav .fa {
+      display: block;
+      color: #ffff;
+      margin: 10px;
+      font-size: 22px;
+      cursor: pointer;
+  }
+  .nav-links ul {
+      padding: 30px;
+  }
+}
+footer p {
+	margin: 0;
+}
+.col{
+  display: flex;
+}
+
+.button {
+    display: inline-block;
+    margin-bottom: 20px;
+	  width: 250px;
+    padding: 10px 20px;
+    background-color: green;
+    text-decoration: none;
+    border-radius: 4px;
+	  cursor: pointer;
+	  box-sizing: border-box;
+	  border: 1px solid #dddddd;
+}
+.button3 {
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 150px;
+  padding: 10px 20px;
+  background-color: green;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border: 1px solid #dddddd;
+}
+.container {
+
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+
+
+  box-shadow: 0px 0px 80px rgba(0,0,0,0.1);
+   border-radius: 20px;
+  background-color:lightskyblue;
+  backdrop-filter: blur(9px);
+  border: 1px solid #ffffff5a;
+}
+
+h1 {
+  text-align: center;
+  color: #333333;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="file"],
+textarea,
+select,
+option {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #1fec18;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+button {
+
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover {
+  background-color: #45a049;
+}
+p {
+  text-align: center;
+}
+#row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+table{
+  border: 2px solid green;
+  margin: 0;
+}
+.td2 img{
+  margin-top: 10px;
+}
+.error{
+  color: red;
+  font-size: 20px;
+}
+.about{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+
+}
+.right
+{
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+height: 200px;
+
+  box-shadow: 0px 0px 80px rgba(0,0,0,0.1);
+   border-radius: 20px;
+  background-color: #ffffff5a;
+  backdrop-filter: blur(9px);
+  border: 1px solid #ffffff5a;
+}
+
